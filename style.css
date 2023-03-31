@@ -1,0 +1,190 @@
+body{
+    display: flex;
+    flex-direction: column;
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    background-color: black;
+   
+    
+}
+.header img{
+    width: 100px;
+    
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    color:white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding:10px;
+    margin-left:100px;
+    margin-right: 200px;
+
+}
+/* middle section */
+.middle{
+    display: flex;
+    gap:100px;
+    justify-content: flex-start;
+    margin-left:200px;
+    margin-right: 200px;
+    
+}
+.mrs-image{
+    width:500px;
+}
+.mls{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+}
+.mls-sub
+{
+    font-family: 'Changa One', cursive;
+}
+/* button is designed by chat gpt */
+.pikachu-button {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #ffcb05;
+    background: #ffcb05;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    box-shadow: 2px 2px 0 #333;
+    position: relative;
+  }
+  
+  .pikachu-button:before,
+  .pikachu-button:after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    background: #ffcb05;
+    border: 2px solid #333;
+    border-radius: 50%;
+  }
+  
+  .pikachu-button:before {
+    left: -10px;
+  }
+  
+  .pikachu-button:after {
+    right: -10px;
+  }
+.s{
+    width:100%;
+}
+.links{
+    gap:100px;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.random{
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-left:200px;
+    margin-right: 200px;
+
+}
+.heading-r{
+    margin:50px;
+
+    font-size: large;
+}
+
+.image{
+   
+    width:250px;
+    height:250px;
+  
+}
+.power{
+    
+    display:flex;
+    flex-direction: column;
+   
+
+}
+.powerimage{
+    width:250px;
+    height:250px;
+}
+.power-r{
+    display: flex;
+    gap:100px;
+    justify-content: center;
+    display: flex;
+}
+.title{
+    margin-top:10px;
+}
+
+
+/* quote section */
+
+
+.quote{
+    padding:150px;
+    background-color: #ffcb05;
+    color:black;
+    
+}
+.quote-author{
+    display: flex;
+    
+    justify-content: flex-end;
+}
+.calltoaction{
+    margin:0 auto;
+    padding: 100px;
+}
+
+.outerbox{
+    background-color:#ffcb05;
+    width:900px;
+    height:100px;
+    padding:50px;
+    display:flex;
+    gap:100px;
+    border-radius: 20px;
+    align-items: center;
+}
+.signupbutton{
+    border-radius: 20px;
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+   
+   display: flex;
+   justify-content: center;
+    bottom: 0;
+    left: 0;
+
+  }
